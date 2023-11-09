@@ -44,7 +44,7 @@ public class SocketClient
                 // Encode the data string into a byte array.
                 byte[] msg = Encoding.ASCII.GetBytes("This is a test<EOF>");
 
-                // Send the data through the socket.
+                // Send the data through the socket. Testing
                 int bytesSent = sender.Send(msg);
 
                 // Receive the response from the remote device.

@@ -47,7 +47,7 @@ public class SocketListener
                 {
                     break;
                 }
-            }
+            }//Testing
 
             Console.WriteLine("Text received : {0}", data);
 
