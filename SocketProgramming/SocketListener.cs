@@ -51,6 +51,7 @@ public class SocketListener
 
             Console.WriteLine("Text received : {0}", data);
 
+            // TODO: example 1
             byte[] msg = Encoding.ASCII.GetBytes(data);
             handler.Send(msg);
             handler.Shutdown(SocketShutdown.Both);
